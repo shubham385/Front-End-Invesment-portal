@@ -21,8 +21,8 @@ export const Login = () => {
 
           <div className="footerDiv flex">
             <span className="text">New?? Way to success!!</span>
-            <Link to={"./Register"}>
-              <button className="btn">Sign Up</button>
+            <Link to={"/Register"}>
+              <button className="btn" style="Color:#fe9e0d;">Sign Up</button>
             </Link>
           </div>
         </div>
@@ -35,7 +35,7 @@ export const Login = () => {
 
           <form action="" className="form grid">
             <span className="inputDiv">
-              <button type="submit" className="btn flex">
+              <button type="submit" className="btn flex" style="background-color:#fe9e0d;">
                 Login with Google
               </button>
             </span>
@@ -59,7 +59,7 @@ export const Login = () => {
               </div>
             </div>
 
-            <button type="submit" className="btn flex">
+            <button type="submit" className="btn flex" style="background-color:#fe9e0d;">
               <span>Login</span>
               <AiOutlineSwapRight className="icon" />
             </button>
@@ -70,7 +70,9 @@ export const Login = () => {
           </form>
         </div>
       </div>
-      <a href="./Dashboard">Dashboard</a>
+      <a href="/Dashboard">Dashboard</a>
+      <br/>
+      <a href="/">Home</a>
     </div>
   );
 };
