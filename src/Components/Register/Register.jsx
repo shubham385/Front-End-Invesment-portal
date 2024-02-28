@@ -16,7 +16,7 @@ export const Register = () => {
           <video src={video} autoPlay muted loop></video>
           <div className="textDiv">
             <h2 className="title">PeakPortFolios</h2>
-            <p>Your way to success!!</p>
+            <p>Your way to success!!!</p>
           </div>
 
           <div className="footerDiv flex">
