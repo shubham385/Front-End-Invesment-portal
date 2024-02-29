@@ -2,7 +2,7 @@ import React from "react";
 import "../Login/Login.css";
 import "../../App.css";
 import { Link } from "react-router-dom";
-import logo from "../../LoginAssets/bird_2.jpg";
+// import logo from "../../LoginAssets/bird_2.jpg";
 import { FaUserShield } from "react-icons/fa";
 import { BsFillShieldLockFill } from "react-icons/bs";
 import { AiOutlineSwapRight } from "react-icons/ai";
@@ -29,7 +29,7 @@ export const Login = () => {
 
         <div className="formDiv flex">
           <div className="headerDiv">
-            <img src={logo} alt="Logo Image" />
+            {/* <img src={logo} alt="Logo Image" /> */}
             <h3>Welcome Back!!</h3>
           </div>
 
