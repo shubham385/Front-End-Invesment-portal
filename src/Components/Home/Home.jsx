@@ -25,9 +25,12 @@ export const Home = () => {
               Get Started and Secure Financial Future!
             </h1>
             <p className="primary-text">
-              Personalized Investment Plans Tailored to Your Goals.Expert
-              Financial Advice and Guidance.Diverse Portfolio Options Including
-              Stocks, Bonds, ETFs, and More.
+              -Evaluate finances, set goals, and budget smartly. <br />
+              -Diversify investments, plan for retirement, manage risk. <br />
+              -Seek expert advice, stay informed, adjust plans as needed.
+              <br />
+              -Save for emergencies, insure adequately for protection. <br />{" "}
+              -Stay disciplined, patient, and proactive for financial security.
             </p>
 
             <Link to={"/Register"}>
