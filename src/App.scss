@@ -16,6 +16,7 @@
   --greyText: hsl(0, 0%, 75%);
   --bgColor: hsl(113, 11%, 85%);
   --inputColor: hsl(330, 12%, 97%);
+  --randomcolor:#AAD7D9;
 
   //typography font Shubham K
 
@@ -97,7 +98,7 @@ video {
 }
 
 .btn :hover {
-  color: var(--primaryColor);
+  color: var(--randomcolor);
   background: var(--paleGreen);
 }
 
@@ -192,7 +193,7 @@ video {
           transition: 0.3s ease;
 
           &:hover {
-            background: var(--hoverColor);
+            background: var(--randomcolor);
             color: var(--blackColor);
           }
         }
@@ -272,7 +273,7 @@ video {
           }
 
           &:hover {
-            background: var(--hoverColor);
+            background: #AAD7D9;
             color: var(--blackColor);
 
             .icon {

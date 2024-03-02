@@ -22,7 +22,7 @@ export const Register = () => {
           <div className="footerDiv flex">
           <span className="text">Have an account??</span>
           <Link to={"/Login"} >
-            <button className="btn" style="Color:#fe9e0d;">Login</button>
+            <button className="btn" style="Color:black;">Login</button>
           </Link>
           </div>
         </div>
@@ -63,7 +63,7 @@ export const Register = () => {
               </div>
             </div>
 
-            <button type="submit" className="btn flex" style="background-color:#fe9e0d;">
+            <button type="submit" className="btn flex"  style="background-color:#AAD7D9;color:white;">
               <span>Register</span>
               <AiOutlineSwapRight className="icon" />
             </button>
