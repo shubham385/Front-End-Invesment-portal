@@ -7,6 +7,7 @@
   img {
     max-width: 100%;
     height: auto;
+    border-radius: 20px;
 
   }
   .App {
@@ -21,15 +22,18 @@
   }
   
   body {
-    background-color: #AAD7D9;
+    background-color: #E4F1FF;
   }
   
   nav {
     
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: space-between;
-    min-height: 90px;
+    min-height: 70px;
+    background-color: #AED2FF;
+    width: 100%;
+
     
     
   }
@@ -63,7 +67,7 @@
     font-size: 1.15rem;
   }
   .primary-button:hover {
-    background-color: #E5E1DA;
+    background-color: #E4F1FF;
   }
   .navbar-menu-container svg {
     font-size: 1.5rem;
@@ -108,7 +112,7 @@
   }
   .secondary-button {
     padding: 1rem 2.5rem;
-    background-color: #92C7CF;
+    background-color: #9400FF;
     outline: none;
     border: none;
     border-radius: 5rem;
@@ -245,7 +249,7 @@
   }
   .testimonial-section-bottom {
     margin-top: 2rem;
-    background-color: white;
+    background-color: #AED2FF;
     padding: 1.5rem 2rem;
     display: flex;
     align-items: center;
@@ -292,7 +296,7 @@
   .work-section-info {
     width: 290px;
     min-height: 350px;
-    background-color: white;
+    background-color: #AED2FF;
     padding: 1rem 2rem;
     display: flex;
     flex-direction: column;

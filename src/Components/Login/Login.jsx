@@ -10,7 +10,7 @@ import video from "../../LoginAssets/video2.mp4";
 
 export const Login = () => {
   return (
-    <div className="loginPage flex">
+    <div className="loginPage flex" style="background-color:#E4F1FF;">
       <div className="container flex">
         <div className="videoDiv">
           <video src={video} autoPlay muted loop></video>
@@ -35,7 +35,7 @@ export const Login = () => {
 
           <form action="" className="form grid">
             <span className="inputDiv">
-              <button type="submit" className="btn flex" style="background-color:#AAD7D9;color:white;">
+              <button type="submit" className="btn flex" style="background-color:#AED2FF;color:black;">
                 Login with Google
               </button>
             </span>
@@ -59,7 +59,7 @@ export const Login = () => {
               </div>
             </div>
 
-            <button type="submit" className="btn flex" style="background-color:#AAD7D9;color:white;">
+            <button type="submit" className="btn flex" style="background-color:#AED2FF;color:black">
               <span>Login</span>
               <AiOutlineSwapRight className="icon" />
             </button>
@@ -73,6 +73,8 @@ export const Login = () => {
       <a href="/Dashboard">Dashboard</a>
       <br/>
       <a href="/">Home</a>
+      <span/>
+      <a href="/Profilepageclient">Profile</a>
     </div>
   );
 };

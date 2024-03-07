@@ -13,42 +13,43 @@ import "./Home.css";
 
 export const Home = () => {
   return (
-    <div className="App">
-      <div className="home-container">
-        <Navbar />
-        <div className="home-banner-container">
-          <div className="home-bannerImage-container">
-            {/* <img src={BannerBackground} alt="" /> */}
-          </div>
-          <div className="home-text-section">
-            <h1 className="primary-heading">
-              Get Started and Secure Financial Future!
-            </h1>
-            <p className="primary-text">
-              -Evaluate finances, set goals, and budget smartly. <br />
-              -Diversify investments, plan for retirement, manage risk. <br />
-              -Seek expert advice, stay informed, adjust plans as needed.
-              <br />
-              -Save for emergencies, insure adequately for protection. <br />{" "}
-              -Stay disciplined, patient, and proactive for financial security.
-            </p>
+    <>
+      <Navbar />
+      <div className="App">
+        <div className="home-container">
+          <div className="home-banner-container">
+            <div className="home-bannerImage-container">
+              {/* <img src={BannerBackground} alt="" /> */}
+            </div>
+            <div className="home-text-section">
+              <h1 className="primary-heading">
+                Get Started and Secure Financial Future!
+              </h1>
+              <p className="primary-text">
+                Evaluate finances, set goals, and budget smartly.Diversify
+                investments, plan for retirement, manage risk. <br />
+                Seek expert advice, stay informed, adjust plans as needed. Save
+                for emergencies, insure adequately for protection. Stay
+                disciplined, patient, and proactive for financial security.
+              </p>
 
-            <Link to={"/Register"}>
-              <button className="secondary-button">
-                Sign up now <FiArrowRight />{" "}
-              </button>
-            </Link>
+              <Link to={"/Register"}>
+                <button className="secondary-button">
+                  Sign up now <FiArrowRight />{" "}
+                </button>
+              </Link>
+            </div>
+            <div className="home-image-section">
+              <img src={BannerImage} alt="image" style="height:500px" />
+            </div>
           </div>
-          <div className="home-image-section">
-            <img src={BannerImage} alt="" />
-          </div>
+          <About />
+          <Work />
+          <Testimonial />
+          <Contact />
+          <Footer />
         </div>
-        <About />
-        <Work />
-        <Testimonial />
-        <Contact />
-        <Footer />
       </div>
-    </div>
+    </>
   );
 };

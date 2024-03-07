@@ -39,7 +39,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="nav-logo-container">
-        <h2>PeakPortfolios</h2>
+        <h2 style="margin-left:50px">PeakPortfolios</h2>
       </div>
       <div className="navbar-links-container">
         <a href="">Home</a>

@@ -10,7 +10,7 @@ import video from '../../LoginAssets/video2.mp4'
 
 export const Register = () => {
   return (
-    <div className="registerPage flex">
+    <div className="registerPage flex" style='background-color:#E4F1FF;'>
       <div className="container flex">
         <div className="videoDiv">
           <video src={video} autoPlay muted loop></video>
@@ -63,7 +63,7 @@ export const Register = () => {
               </div>
             </div>
 
-            <button type="submit" className="btn flex"  style="background-color:#AAD7D9;color:white;">
+            <button type="submit" className="btn flex"  style="background-color:#AED2FF;color:black;">
               <span>Register</span>
               <AiOutlineSwapRight className="icon" />
             </button>
