@@ -1,10 +1,10 @@
-import { Dashboard } from "@mui/icons-material";
+import { Dashboard } from "./Components/Dashboard/Dashboard";
 import "./App.css";
 import { Home } from "./Components/Home/Home";
 import { Login } from "./Components/Login/Login";
 import { Register } from "./Components/Register/Register";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Profilepage1 from "./Components/Profilepages/customer/Profilepage1";
+// import { Profilepage1 } from "./Components/Profilepages/customer/Profilepage1";
 
 //router
 
@@ -37,18 +37,11 @@ const router = createBrowserRouter([
     path: "/Dashboard",
     element: (
       <div>
-        <Dashboard />
+        <Register />
       </div>
     ),
   },
-  {
-    path: "/Profilepageclient",
-    element: (
-      <div>
-        <Profilepage1/>
-      </div>
-    ),
-  },
+
 ]);
 
 function App() {
