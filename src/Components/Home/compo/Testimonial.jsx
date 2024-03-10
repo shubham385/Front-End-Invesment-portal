@@ -9,18 +9,18 @@ const Testimonial = () => {
       <div className="work-section-top">
         <p className="primary-subheading">Testimonial</p>
         <h1 className="primary-heading">What They Are Saying</h1>
-        <p className="primary-text">
-          Life-changing expertise, trusted advisors, and tangible
-          results—couldn't be happier!
-        </p>
+        <h5 className="primary-text">
+          Life-changing expertise and tangible
+          results couldn't be happier!
+        </h5>
       </div>
       <div className="testimonial-section-bottom">
         <img src={ProfilePic} alt="image" style="width:auto"/>
-        <p>
+        <h5>
           From hesitant investor to confident saver, their guidance made all the
           difference. Transparent, knowledgeable, and always available for
           support.
-        </p>
+        </h5>
         <div className="testimonials-stars-container">
           <AiFillStar />
           <AiFillStar />

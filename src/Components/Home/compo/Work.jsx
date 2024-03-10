@@ -26,10 +26,9 @@ const Work = () => {
       <div className="work-section-top">
         <p className="primary-subheading">Why Choose Us:</p>
         <h1 className="primary-heading">How It Works</h1>
-        <p className="primary-text">
-          Choose us for personalized investment strategies, expert guidance, and
-          a commitment to your financial success.
-        </p>
+        <h3 className="primary-text">
+          Choose us for personalized investment strategies!
+        </h3>
       </div>
       <div className="work-section-bottom">
         {workInfoData.map((data) => (
@@ -38,7 +37,7 @@ const Work = () => {
               <img src={data.image} alt="" />
             </div>
             <h2>{data.title}</h2>
-            <p>{data.text}</p>
+            <h5>{data.text}</h5>
           </div>
         ))}
       </div>

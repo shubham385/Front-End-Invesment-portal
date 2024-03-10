@@ -25,13 +25,12 @@ export const Home = () => {
               <h1 className="primary-heading">
                 Get Started and Secure Financial Future!
               </h1>
-              <p className="primary-text">
+              <h3 className="primary-text">
                 Evaluate finances, set goals, and budget smartly.Diversify
                 investments, plan for retirement, manage risk. <br />
                 Seek expert advice, stay informed, adjust plans as needed. Save
-                for emergencies, insure adequately for protection. Stay
-                disciplined, patient, and proactive for financial security.
-              </p>
+                for emergencies, insure adequately for protection.
+              </h3>
 
               <Link to={"/Register"}>
                 <button className="secondary-button">

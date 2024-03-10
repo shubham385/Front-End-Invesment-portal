@@ -1,0 +1,171 @@
+#header {
+    background-color: var(--white);
+    width: 100% !important;
+    margin-left: 0px !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+}
+
+#header .MuiToolbar-root {
+    min-height: 55px !important;
+}
+
+/* #header .logo {
+    width: 40px !important;
+    margin-right: 8px !important;
+} */
+.smlogo {
+    width: 30px !important;
+    /* margin-right: 8px !important; */
+}
+
+
+#header .title {
+    color: var(--black);
+}
+
+#header .MuiButtonBase-root:hover {
+    background-color: transparent !important;
+}
+
+#header .menu_btn,
+.MuiMenuItem-root.menu_btn {
+    background-color: var(--white) !important;
+    color: var(--black) !important;
+    text-transform: capitalize !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+}
+
+.drawer .MuiDrawer-paper {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+    background-color: #f0f3f6 !important;
+}
+
+
+/* .MuiListItemButton-root.Mui-selected {
+    background: #1930ab !important;
+    border-radius: 11px;
+    margin: 10px !important;
+    color: #fff !important;
+    padding: 4px 12px !important;
+} */
+
+.MuiListItem-root {
+    border-radius: 11px;
+    color: var(--content) !important;
+}
+
+.MuiListItemIcon-root {
+    min-width: 0px !important;
+    margin-right: 10px !important;
+    color: inherit !important;
+}
+
+
+.MuiListItemButton-root {
+    margin: 8px 14px !important;
+    background: #f8f8f8 !important;
+    border-radius: 6px !important;
+    padding: 8px 10px !important;
+    border: 2px solid transparent !important;
+    border-left: 5px solid transparent !important;
+}
+
+.MuiListItemButton-root.Mui-selected {
+    color: var(--white) !important;
+    border: 2px solid var(--col2) !important;
+    border-left: 5px solid var(--col1) !important;
+    background: var(--col2) !important;
+    background-image: linear-gradient(to right, #1930ab, #00b0f0) !important;
+}
+
+.MuiListItemButton-root.Mui-selected.MuiListItemIcon-root {
+    color: var(--white) !important;
+}
+
+.MuiListItemText-root .MuiTypography-root {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+}
+
+#mobile-header {
+    display: none !important;
+    background-color: var(--white) !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+}
+
+
+/* user profile list css added */
+.user-profile .MuiListItemButton-root {
+    padding: 0px !important;
+    background-color: transparent !important;
+}
+
+.user-profile .MuiAvatar-root {
+    width: 35px !important;
+    height: 35px !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+
+.user-profile .MuiListItemIcon-root {
+    margin-right: 0px !important;
+}
+
+#long-menu .MuiList-root {
+    max-width: 125px !important;
+}
+
+.menu_btn {
+    font-size: 12px !important;
+    text-transform: none !important;
+    padding: 4px 12px !important;
+    padding-left: 18px !important;
+    color: var(--content) !important;
+    margin: 2px 0px !important;
+    text-align: start;
+    /* display: flex !important; */
+    justify-content: flex-start !important;
+}
+
+#emp-details .MuiListItemText-root .MuiTypography-root {
+    font-size: 13px !important;
+    font-weight: 600 !important;
+}
+
+#emp-details .MuiListItemText-root .MuiTypography-root.sec_content {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+}
+
+#emp-details .user-profile .MuiAvatar-root {
+    width: 40px !important;
+    height: 40px !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+
+#emp-details .MuiListItemText-root .MuiTypography-root.emp-code {
+    font-size: 9px !important;
+    font-weight: 500 !important;
+    color: var(--white) !important;
+    background-color: var(--content) !important;
+    padding: 2px 8px !important;
+    border-radius: 2px !important;
+    margin-left: 8px !important;
+    letter-spacing: 0.5px !important;
+}
+
+@media (max-width: 800px) {
+    #mobile-header {
+        display: inherit !important;
+    }
+
+    .main {
+        padding-top: 70px !important;
+    }
+
+    .MuiDrawer-docked {
+        display: none !important;
+    }
+}

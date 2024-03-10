@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import { Link } from "react-router-dom";
-import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
 import Divider from "@mui/material/Divider";
@@ -14,6 +13,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
+import Box from "@mui/material/Box";
 
 
 const Navbar = () => {

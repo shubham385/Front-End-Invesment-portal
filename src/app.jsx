@@ -1,10 +1,12 @@
-import { Dashboard } from "./Components/Dashboard/Dashboard";
 import "./App.css";
+import Dashboard1 from "./Components/Dashboard/Dashboard1";
 import { Home } from "./Components/Home/Home";
 import { Login } from "./Components/Login/Login";
 import { Register } from "./Components/Register/Register";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import MainLayout from "./Components/Dashboard/Layouts/MainLayout";
 // import { Profilepage1 } from "./Components/Profilepages/customer/Profilepage1";
+
 
 //router
 
@@ -37,10 +39,11 @@ const router = createBrowserRouter([
     path: "/Dashboard",
     element: (
       <div>
-        <Register />
+        <MainLayout><Dashboard1/></MainLayout>
       </div>
     ),
   },
+
 
 ]);
 

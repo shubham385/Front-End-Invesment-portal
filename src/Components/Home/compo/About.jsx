@@ -16,14 +16,12 @@ const About = () => {
         <h1 className="primary-heading">
           Your Trusted Partner In Financial Growth!
         </h1>
-        <p className="primary-text">
+        <h3 className="primary-text">
           Our mission is to provide personalized investment solutions tailored
           to your unique needs and objectives.
-        </p>
-        <p className="primary-text">
           We believe in open and transparent communication, keeping you informed
           about your investments and financial progress.
-        </p>
+        </h3>
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>
           <button className="watch-video-button">

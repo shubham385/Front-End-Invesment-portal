@@ -1,0 +1,24 @@
+@import url(Styles.css);
+@import url(../Dashboard/Asset/CSS/Textfeild.css);
+@import url(../Dashboard/Asset/CSS/Header.css);
+@import url(../Dashboard/Asset/CSS/Dashboard1.css);
+@import url(../Dashboard/Asset/CSS/AgGrid.css);
+@import url(../Dashboard/Asset/CSS/Pagination.css);
+
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --gry: #d9d9d9;
+
+  --grn: #00b050;
+  --red: #f00;
+  --yellow: #fca510;
+
+  --col1: #1930ab;
+  --col2: #00b0f0;
+  --content: #4d4f5d;
+
+  --ag-icon-font-family: "Roboto", sans-serif;
+}
+

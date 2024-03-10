@@ -1,0 +1,226 @@
+/* login page input field */
+
+.input_field .MuiOutlinedInput-input {
+    padding: 10px !important;
+    font-size: 12px !important;
+    background-color: #fff !important;
+    border-radius: 4px !important;
+}
+
+.input_field .MuiSvgIcon-root {
+    height: 15px !important;
+    width: 15px !important;
+}
+
+.input_field .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline,
+.input_field .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    outline: none !important;
+    border: solid 1px #1930AB !important;
+}
+
+/* text field */
+
+.textfield .MuiInput-input {
+    font-size: 11px !important;
+}
+
+.textfield .MuiInputLabel-root {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}
+
+.textfield .MuiFormLabel-root.Mui-focused {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #1e59a9 !important;
+}
+
+.textfield .MuiInput-root::after {
+    border-bottom: none !important;
+}
+
+.textfield .MuiInput-root:hover:not(.Mui-disabled, .Mui-error)::before {
+    border-bottom: solid 1px #a6a6a6 !important;
+}
+
+/* .textfield .MuiInputLabel-root.MuiInputLabel-shrink {
+    transform: translate(0, 5px) scale(0.85) !important;
+} */
+
+/* checkbox */
+
+.checkbox_with_label .MuiFormControlLabel-label {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    color: var(--blk) !important;
+}
+
+.checkbox_with_label .Mui-checked {
+    color: var(--col1) !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}
+
+.checkbox_with_label .MuiCheckbox-root {
+    color: var(--col1) !important;
+    padding: 0px 10px !important;
+    padding-right: 5px !important;
+}
+
+.checkbox_with_label .MuiMenuItem-root {
+    min-height: 0px !important;
+}
+
+.checkbox_with_label .MuiSvgIcon-root {
+    height: 18px !important;
+    width: 18px !important;
+}
+
+.MuiInput-root::before {
+    font-size: 12px !important;
+    color: #1e59a9 !important;
+}
+
+/* search box */
+
+.table_searchbx .MuiInput-input {
+    font-size: 12px !important;
+}
+
+.table_searchbx .MuiTextField-root {
+    border: solid 1px #a4a4a4 !important;
+    border-radius: 4px !important;
+    padding: 2px 8px !important;
+}
+
+.table_searchbx .MuiInputBase-root::after {
+    border-bottom: none !important;
+}
+
+.table_searchbx .MuiInput-root::before {
+    border-bottom: none !important;
+}
+
+.MuiAutocomplete-listbox {
+    font-size: 12px !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+
+#dialog .MuiFormLabel-root.MuiInputLabel-root {
+    font-size: 13px !important;
+    line-height: 15px !important;
+}
+
+
+#dialog .MuiDialog-paperWidthSm {
+    width: 350px !important;
+}
+
+#dialog .MuiDialog-paperWidthMd {
+    width: 500px !important;
+}
+
+#dialog .MuiDialog-paperWidthLg {
+    min-width: 50% !important;
+}
+
+#dialog .MuiInputBase-input .MuiOutlinedInput-input {
+    padding: 4px 8px !important;
+}
+
+/* #dialog .MuiFormControlLabel-root .MuiFormControlLabel-label {
+    font-size: 13px !important;
+} */
+
+#dialog .head_btn {
+    text-transform: none !important;
+    font-size: 16px !important;
+}
+
+/* #dialog .MuiInputBase-input.MuiOutlinedInput-input {
+    padding: 4px 8px !important;
+    font-size: 13px !important;
+} */
+
+#dialog .password .MuiInputBase-input.MuiOutlinedInput-input {
+    padding: 8px !important;
+    font-size: 12px !important;
+}
+
+
+#dialog .MuiAutocomplete-root .MuiOutlinedInput-root {
+    padding: 6px 8px !important;
+}
+
+#custom-autocomplete .drop-options .MuiListItemText-primary {
+    font-size: 11px !important;
+    color: var(--content) !important;
+    font-weight: 500 !important;
+}
+
+.search .MuiInputBase-input.MuiOutlinedInput-input {
+    padding: 6px 8px !important;
+}
+
+/* radio button*/
+
+.MuiRadio-root {
+    padding: 4px !important;
+    margin: 0px 4px !important;
+    margin-right: 0px !important;
+}
+
+.MuiRadio-root .MuiSvgIcon-root {
+    color: var(--col1) !important;
+}
+
+.PrivateSwitchBase-input {
+    display: none !important;
+}
+
+
+.MuiFormControlLabel-root .MuiFormControlLabel-label {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+}
+
+
+.MuiSwitch-switchBase.Mui-checked {
+    color: var(--col1) !important;
+}
+
+.MuiSwitch-switchBase.Mui-checked+.MuiSwitch-track {
+    background-color: var(--col1) !important;
+}
+
+#switch_only .MuiFormControlLabel-root {
+    margin: 0px !important;
+}
+
+.list_ico {
+    background-color: #d9d9d9 !important;
+    border-radius: 50% !important;
+}
+
+.PhoneInputInput {
+    box-shadow: none !important;
+    font-size: 11px !important;
+    padding: 10px 8px !important;
+    outline: none !important;
+    font-family: "Roboto", sans-serif !important;
+    border: none !important;
+}
+
+.phonefield.PhoneInput {
+    border: 1px solid rgba(0, 0, 0, 0.23) !important;
+    border-radius: 4px !important;
+}
+
+.phonefield.PhoneInput:hover {
+    border: 1px solid #000 !important;
+}
+
+.PhoneInputCountry {
+    margin-left: 8px !important;
+}

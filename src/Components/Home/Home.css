@@ -33,8 +33,7 @@
     min-height: 70px;
     background-color: #AED2FF;
     width: 100%;
-
-    
+   
     
   }
   .navbar-menu-container {
@@ -242,7 +241,7 @@
     min-width: 190px;
   }
   .footer-section-columns span {
-    margin: 0.25rem 0rem;
+    margin: 1.25rem 0rem;
     font-weight: 600;
     color: #4c4c4c;
     cursor: pointer;
